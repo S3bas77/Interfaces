@@ -1,0 +1,15 @@
+9. Sistema de Recomendaciones de Productos
+
+Escenario:
+
+    Un sistema de comercio electrónico recomienda productos a los usuarios según su
+    historial de compras y búsquedas.
+
+Requerimientos:
+- Crear una interfaz Recomendable con método obtenerRecomendaciones().
+
+- Implementar esta interfaz en UsuarioPremium y UsuarioRegular.
+
+- Crear una clase Producto con atributos nombre, categoria, precio.
+
+- Implementar una clase SistemaRecomendaciones que use la interfaz para sugerir productos.

@@ -1,0 +1,16 @@
+2. Sistema de Gestión de Pedidos para un Restaurante
+
+Escenario:
+
+    Un restaurante maneja pedidos de diferentes tipos:
+    comida para llevar, pedidos en mesa y entregas a domicilio.
+
+Requerimientos:
+- Crear una interfaz Pedido con métodos preparar(), entregar().
+
+- Implementar esta interfaz en PedidoParaLlevar, PedidoEnMesa y PedidoDomicilio.
+
+- En PedidoDomicilio, agregar una dependencia con una interfaz Repartidor que
+  tenga un método repartir(), implementado por Motorizado y Ciclista.
+
+- Crear una clase Restaurante que gestione los pedidos y asigne repartidores.

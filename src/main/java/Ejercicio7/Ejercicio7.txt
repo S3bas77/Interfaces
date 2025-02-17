@@ -1,0 +1,17 @@
+7. Sistema de Inventario para un Almacén
+
+Escenario:
+
+    Un almacén maneja distintos tipos de productos con diferentes formas de gestión
+    y almacenamiento.
+
+Requerimientos:
+- Crear una interfaz Producto con métodos obtenerPrecio(), obtenerStock().
+
+- Implementar esta interfaz en Electronico, Alimento y Ropa.
+
+- Crear una interfaz Almacenable con métodos guardarEnBodega() y retirarDeBodega().
+
+- Implementar Almacenable en Alimento con una verificación de fecha de caducidad.
+
+- Crear una clase Inventario que gestione los productos.

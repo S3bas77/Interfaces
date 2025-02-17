@@ -1,0 +1,15 @@
+5. Plataforma de Aprendizaje Online
+
+Escenario:
+
+    Una plataforma educativa permite cursos en distintos formatos, como videos,
+    PDFs interactivos y exámenes en línea.
+
+Requerimientos:
+- Crear una interfaz Curso con métodos iniciar(), completar().
+
+- Implementar esta interfaz en CursoVideo, CursoPDF y CursoExamen.
+
+- Crear una clase Estudiante que pueda inscribirse y completar cursos.
+
+- Implementar una interfaz Evaluable en CursoExamen con un método calificar(int puntaje)

@@ -1,0 +1,17 @@
+6. Plataforma de Transporte Urbano
+
+Escenario:
+
+    Un sistema de transporte maneja taxis, buses y bicicletas compartidas. Cada medio de
+    transporte tiene un modo de operar diferente.
+
+Requerimientos:
+- Crear una interfaz TransportePublico con métodos iniciarViaje(String origen,
+String destino), calcularTarifa().
+
+- Implementar esta interfaz en Taxi, Bus y BicicletaCompartida.
+
+- En Taxi, agregar una dependencia con la interfaz Conductor que tenga métodos
+aceptarPasajero() y finalizarViaje().
+
+- Crear una clase Usuario que pueda solicitar un viaje.

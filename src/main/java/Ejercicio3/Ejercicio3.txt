@@ -1,0 +1,14 @@
+3. Red Social con Interacciones
+
+Escenario:
+
+    Una red social permite a los usuarios interactuar con publicaciones de diferentes
+    formas: comentar, reaccionar (me gusta, me encanta) y compartir contenido.
+
+Requerimientos:
+- Crear una interfaz Interactuable con métodos comentar(String comentario),
+reaccionar(String tipoReaccion), compartir().
+
+- Implementar la interfaz en Foto, Video y Articulo.
+
+- Crear una clase Usuario que pueda realizar interacciones con las publicaciones.

@@ -1,0 +1,15 @@
+8. Sistema de Gestión de Empleados en una Empresa
+
+Escenario:
+
+    Una empresa maneja empleados en distintas categorías: administrativos, técnicos
+    y gerentes. Cada uno tiene formas distintas de calcular su salario.
+
+Requerimientos:
+- Crear una interfaz Empleado con métodos calcularSalario(), obtenerCargo().
+
+- Implementar esta interfaz en Administrativo, Tecnico y Gerente.
+
+- Crear una interfaz Bonificable con método calcularBono().
+
+- Crear una clase Empresa que administre empleados.

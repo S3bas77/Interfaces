@@ -1,0 +1,17 @@
+1. Plataforma de Streaming de Contenidos
+
+Escenario:
+    Una plataforma de streaming ofrece diferentes tipos de contenido como películas,
+    series y documentales. Todos los contenidos deben poder ser reproducidos,
+    pausados y detenidos.
+
+Requerimientos:
+- Crear una interfaz Reproducible con métodos reproducir(), pausar() y detener().
+
+- Implementar la interfaz en clases Pelicula, Serie y Documental.
+
+- Agregar atributos específicos, por ejemplo, la duración en Pelicula, la cantidad
+  de episodios en Serie y el tema en Documental.
+
+- Crear una clase Usuario que pueda agregar contenido a su lista de favoritos y
+  reproducirlo.

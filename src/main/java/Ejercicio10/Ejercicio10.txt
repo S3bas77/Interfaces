@@ -1,0 +1,17 @@
+10. Plataforma de Reservas de Hoteles
+
+Escenario:
+
+    Una plataforma permite reservar habitaciones de hotel, departamentos y casas de
+    vacaciones.
+
+Requerimientos:
+- Crear una interfaz Reservable con métodos reservar(String fecha), cancelarReserva().
+
+- Implementar Reservable en Hotel, Departamento, CasaVacacional.
+
+- Crear una interfaz Calificable con método calificar(int estrellas).
+
+- Implementar Calificable en Hotel.
+
+- Crear una clase Usuario que pueda hacer y cancelar reservas.

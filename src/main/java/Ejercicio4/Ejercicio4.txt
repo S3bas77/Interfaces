@@ -1,0 +1,18 @@
+4. Sistema de Pago y Facturación para una Empresa
+
+Escenario:
+
+    Una empresa maneja múltiples métodos de pago y debe generar facturas
+    automáticamente después de una compra.
+
+Requerimientos:
+- Crear una interfaz MetodoPago con un método procesarPago(double monto).
+
+- Implementar MetodoPago en TarjetaCredito, PayPal y TransferenciaBancaria.
+
+- Crear una interfaz Facturable con un método generarFactura().
+
+- Implementar Facturable en FacturaElectronica y FacturaFisica.
+
+- Crear una clase Compra que use ambas interfaces (MetodoPago y Facturable).
+
